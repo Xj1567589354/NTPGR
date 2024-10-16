@@ -1,0 +1,11 @@
+EasyDict==1.7
+opencv-python==3.4.1.15
+shapely==2.0.2
+Cython
+scipy
+pandas
+pyyaml
+json_tricks
+scikit-image
+yacs>=0.1.5
+tensorboardX==2.6.1
