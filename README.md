@@ -1,4 +1,3 @@
-# NTPGR
 The Novel Traffic Police Gesture Recognizer(NTPGR)
 ====
 
