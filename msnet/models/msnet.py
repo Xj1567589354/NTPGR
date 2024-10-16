@@ -129,11 +129,3 @@ class MSNet(nn.Module):
         output = F.softmax(logits, dim=1) if self.softmax else logits
 
         return output
-
-
-if __name__ == '__main__':
-    input = torch.rand([4, 40, 128])
-    model = WaveNet(num_classes=17, channels_in=40, residul_channels=32, skip_channels=128, softmax=True)
-    model.eval()
-    output = model(input)
-    print(output)
