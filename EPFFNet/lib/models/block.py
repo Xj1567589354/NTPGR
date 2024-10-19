@@ -8,7 +8,7 @@ from lib.models.ghost import *
 from lib.models.epsa import PSAModule
 
 
-BN_MOMENTUM = 0.1
+BN_MOMENTUM = 0.2
 
 
 def conv3x3(in_planes, out_planes, stride=1):
